@@ -1,0 +1,3 @@
+- 👋 Hi, I’m Ganesha Shiisa
+- 👀 I’m interested in Python
+- 🌱 I’m currently learning Machine Learning
