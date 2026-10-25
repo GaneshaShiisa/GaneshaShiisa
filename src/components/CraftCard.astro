@@ -29,9 +29,9 @@ const { title, description, date, link, sourceUrl, image, video } = Astro.props;
             preload="metadata"
             poster={image}
             aria-label={`${title} の動作イメージ`}
-            class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+            class="h-full w-full object-contain object-center transition-transform duration-500 group-hover:scale-105"
           >
-            <source src={video} type="video/mp4" />
+            <source src={video} type="video/webm" />
           </video>
         ) : (
           <img
