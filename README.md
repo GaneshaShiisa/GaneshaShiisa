@@ -19,6 +19,12 @@
 - **Frameworks & Engines:** Unity, FastAPI, Streamlit, Electron
 - **Tools & Embedded:** Git, Raspberry Pi Pico W
 
+### 🎨 Works
+
+Explore my creative experiments, visual tools, and interactive prototypes:
+
+> [Works by Ganesha](https://ganeshashiisa.github.io/GaneshaShiisa/)
+
 ---
 
 <p align="center">
