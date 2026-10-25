@@ -2,30 +2,33 @@
 // src/pages/index.astro
 import CraftCard from "../components/CraftCard.astro";
 import "../styles/global.css";
+import type { Craft } from "../types";
 
 // 仮の作品データ（後で自由に変更・追加可能）
-const projects = [
+const projects: Craft[] = [
   {
-    title: "Project Alpha",
-    description: "インタラクティブなUIプロトタイプとデザインシステムの実験。",
-    image:
-      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1000&auto=format&fit=crop",
+    title: "Lumina Trace",
+    description:
+      "3D空間内を浮游する光体コア（彗星）をコントロールし、空間に残る美しい光のリボン（Trail）や宇宙塵（Dust Particles）、拡散する衝撃波（Burst Particles）などのインタラクティブな描画表現を楽しむ作品です。",
     date: "2026",
+    link: "https://ganeshashiisa.github.io/lumina-trace/",
+    sourceUrl: "https://github.com/ganeshashiisa/lumina-trace",
+    video: "images/lumina-trace.mp4",
   },
-  {
-    title: "Beta Dashboard",
-    description: "リアルタイムデータを可視化するミニマルなアナリティクス画面。",
-    image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop",
-    date: "2026",
-  },
-  {
-    title: "Gamma Shader",
-    description: "WebGLを用いたブラウザ背景エフェクトの検証。",
-    image:
-      "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?q=80&w=1000&auto=format&fit=crop",
-    date: "2025",
-  },
+  // {
+  //   title: "Beta Dashboard",
+  //   description: "リアルタイムデータを可視化するミニマルなアナリティクス画面。",
+  //   image:
+  //     "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop",
+  //   date: "2026",
+  // },
+  // {
+  //   title: "Gamma Shader",
+  //   description: "WebGLを用いたブラウザ背景エフェクトの検証。",
+  //   image:
+  //     "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?q=80&w=1000&auto=format&fit=crop",
+  //   date: "2025",
+  // },
 ];
 ---
 
@@ -42,9 +45,11 @@ const projects = [
     <main class="max-w-5xl mx-auto px-6 py-20">
       <!-- ヘッダー部分（Rauno式） -->
       <header class="mb-12">
-        <h1 class="text-xl font-medium tracking-tight text-white">Craft</h1>
+        <h1 class="text-xl font-medium tracking-tight text-white">
+          Works by Ganesha
+        </h1>
         <p class="text-sm text-neutral-400 mt-1">
-          Selected interactions, prototypes, and experiments.
+          Personal projects, prototypes, and experiments.
         </p>
       </header>
 
@@ -55,8 +60,11 @@ const projects = [
             <CraftCard
               title={project.title}
               description={project.description}
-              image={project.image}
+              image={project.image ?? "/images/default-thumbnail.webp"}
               date={project.date}
+              link={project.link}
+              sourceUrl={project.sourceUrl}
+              video={project.video}
             />
           ))
         }
