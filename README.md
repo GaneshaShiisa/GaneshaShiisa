@@ -23,15 +23,15 @@
 
 Explore my creative experiments, visual tools, and interactive prototypes:
 
-> [Works by Ganesha](https://ganeshashiisa.github.io/GaneshaShiisa/)
+> [Works by Ganesha](https://ganesha-shiisa.github.io/GaneshaShiisa/)
 
 ---
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=GaneshaShiisa&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GaneshaShiisa&layout=compact&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ganesha-shiisa&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ganesha-shiisa&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=GaneshaShiisa&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ganesha-shiisa&theme=tokyonight&hide_border=true" />
 </p>
