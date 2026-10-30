@@ -23,7 +23,7 @@
 
 Explore my creative experiments, visual tools, and interactive prototypes:
 
-> [Works by Ganesha](https://ganesha-shiisa.github.io/GaneshaShiisa/)
+> [Works by Ganesha](https://ganesha-shiisa.github.io/ganesha-shiisa/)
 
 ---
 
