@@ -2,13 +2,13 @@ import type { Craft } from "../types";
 
 export const projects: Craft[] = [
   {
-    title: "Lumina Trace (開発中)",
+    title: "Lumina Trace",
     description:
-      "3D空間内を浮游する光体コア（彗星）をコントロールし、空間に残る美しい光のリボン（Trail）や宇宙塵（Dust Particles）、拡散する衝撃波（Burst Particles）などのインタラクティブな描画表現を楽しむ作品です。",
+      "3D空間内を浮遊する彗星のような光体コアをコントロールし、 Trail Renderer による光の軌跡や、 Particle System による残光演出を楽しむ ビジュアルインタラクション作品です。",
     date: "2026",
     link: "https://ganesha-shiisa.github.io/lumina-trace/",
     sourceUrl: "https://github.com/ganesha-shiisa/lumina-trace",
-    video: "images/lumina-trace.webm",
+    image: "https://media.githubusercontent.com/media/ganesha-shiisa/lumina-trace/main/.github/images/lumina-trace.gif",
   },
   {
     title: "Custom Auto Scroller",
