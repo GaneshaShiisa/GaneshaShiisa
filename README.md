@@ -28,10 +28,6 @@ Explore my creative experiments, visual tools, and interactive prototypes:
 ---
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ganesha-shiisa&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ganesha-shiisa&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ganesha-shiisa&theme=tokyonight&hide_border=true" />
+  <br>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ganesha-shiisa&theme=tokyonight" />
 </p>
